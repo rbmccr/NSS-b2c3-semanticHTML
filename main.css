@@ -1,0 +1,41 @@
+body {
+  background-color: #888;
+}
+
+article.candidate {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+
+  background-color: lightgrey;
+}
+
+.candidate__img {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.candidate__header {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: purple;
+}
+
+.candidate--district,
+.candidate--committee ul,
+.candidate--legislation ul {
+  margin-bottom: 5px;
+}
